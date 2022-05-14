@@ -38,7 +38,7 @@ header {
   width: 100vw;
 }
 .block {
-  width: 30%;
+  width: 35%;
   height: 1.2em;
 }
 .color_1 {
@@ -94,18 +94,23 @@ h2 {
     background-color: rgb(160, 152, 152);
   }
 }
+/*!-------------Don't change above line------------*/
 /*.......begin media query for laptop......*/
-/* @media (min-width: 992px) { */
-/*.....top box.....*/
-/* header {
+@media (min-width: 992px) {
+  /*.....top box.....*/
+  header {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(44, 235, 206);
     height: 50%;
-  } */
-/*.......bottom box......*/
-/* .bottom {
+  }
+  .main_title {
+    font-size: 54px;
+  }
+
+  /*.......bottom box......*/
+  .bottom {
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -121,37 +126,14 @@ h2 {
   .color_3 {
     background-color: rgb(84, 175, 156);
   }
-} */
+  h2 {
+    font-size: 32px;
+  }
+  .title {
+    height: 25vh;
+  }
+  .block {
+    width: 40%;
+  }
+}
 /*......end media query for laptop......*/
-
-/* .main_container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  margin: 1em auto;
-}
-
-/*......3 title boxes....*/
-
-/* .bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  width: 25%;
-}
-
-p {
-  width: 35%;
-} */
-
-/*.....color blocks....*/
