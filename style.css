@@ -66,11 +66,34 @@ p {
 h2 {
   font-size: 18px;
 }
-
-/*.....begin media query for phone.......*/
-/* @media (min-width: 576px) {
-} */
-
+/*!-------------Don't change above line------------*/
+/*.....begin media query for tablet.......*/
+@media (min-width: 576px) {
+  .color_1 {
+    background-color: rgb(128, 158, 172);
+  }
+  .color_2 {
+    background-color: rgb(166, 38, 57);
+  }
+  .color_3 {
+    background-color: rgb(34, 115, 97);
+  }
+  .main_title {
+    font-size: 38px;
+  }
+  header {
+    background-color: rgb(131, 136, 111);
+  }
+  h2 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .bottom {
+    background-color: rgb(160, 152, 152);
+  }
+}
 /*.......begin media query for laptop......*/
 /* @media (min-width: 992px) { */
 /*.....top box.....*/
